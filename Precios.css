@@ -4,19 +4,13 @@ body{
 }
 h1{
     color: navy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     color:saddlebrown;
-}
-h2{
-    color:tomato;
-    font-family:sans-serif;
 }
 footer{ 
     background-color:lightsalmon;
     width: 100%;
     text-align: center;
-}
-.h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
