@@ -4,53 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/Estilos.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         
-        <h1 class="h1">Temas</h1>
-
-          <nav>
-
-               <ul>
-
-                   <li><a href="Index.html"> Inicio </a></li> 
-
-              </ul>
-
-         </nav>
-
-        <hr>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> Pandingas </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Mision.html"> Mision/Vision </a>
+              </li>
+            </ul>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Tienda.html"> Tienda </a>
+                  </li>
+                </ul>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Cuenta.html"> Registrate </a>
+                      </li>    
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Serch">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>  
+               
+                    </div>  
+                </div> 
+            </div> 
+        </div>                                 
+      </nav>
 
     </header>
 
     <main>
 
-        <img src="img/3.jpg" alt="imagen3">
+        <div class="container"> 
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <h2>Mision</h2>
 
-<hr>
-        
-          <h2 class="h2">Mision</h2>
+                 <p>Pandingas es una empresa enfocada en la comercializacion de un producto alimenticio el cual sea satisfactorio y al mismo tiempo opere con un sistema limpio y sano asegurando la excelencia y calidad de este y de nuestros clientes.</p>
 
-              <p class="parrafo">Pandingas es una empresa enfocada en la comercializacion de un producto alimenticio el cual sea satisfactorio y al mismo tiempo opere con un sistema limpio y sano asegurando la excelencia y calidad de este y de nuestros clientes.</p>
+                 <img src="img/3.jpg" alt="imagen3" class="img-fluid w-100">
 
-          <h2 class="h2">Vision</h2>
+                <div class="col-12 col-md-12">
+                   <h2>Vision</h2>
 
-              <p>La empresa Pandingas en el año 2021 , sera reconocida a nivel local por ser una empresa preponderante y lider en comercializacion de productos alimenticios, y asi poder llegar a ser la mejor empresa de comidad rapidas.</p>
+                   <p>La empresa Pandingas en el año 2021 , sera reconocida a nivel local por ser una empresa preponderante y lider en comercializacion de productos alimenticios, y asi poder llegar a ser la mejor empresa de comidad rapidas.</p>
 
-    </main>
-<hr>
-    <footer>
-        
-        <p>Juan Daniel Anduquia Velez</p>
-
-        <p>MEDELLIN</p>
-
-        <P>27/01/2021</P>
-
-        <p>Contacto: 3113716771</p>
-    </footer>
+                   <img src="img/2.jpg" alt="imagen2" class="img-fluid w-100">
     
+               </div>
+          </div>
+    </div>
+        
+    </main>
+
+    <footer class="bg-dark text-white mt-4">
+      <div  class="container">
+  
+          <div  class="row p-4">
+  
+            <div class="col-12 col-md-6 text-white text-end" >
+             
+                      <p class="text-end">Pandingas</p>
+                      <p class="text-end">Medellín</p>
+                      <p class="text-end">Juandanduquia13@outlook.es</p>
+                      <p class="text-end">Tel: 3113716771</p>
+                      <p class="text-end">17/02/2021</p>
+                    </div>
+                    <div class="col-12 col-md-6 text-start border-start ">
+                      <p>Sigueme en mis redes sociales como :</p>
+                      <a href="https://www.instagram.com/daniel_anduquia16/?hl=es-la" target="blank"><i class="fab fa-instagram fa-4x text-white"></i></a>
+                      <a href="https://www.facebook.com/profile.php?id=100006448512973" target="Blank"><i class="fab fa-facebook fa-4x text-white"></i></a>
+                      
+                      
+          
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/408b3484f3.js" crossorigin="anonymous"></script>
 </body>
 </html>
